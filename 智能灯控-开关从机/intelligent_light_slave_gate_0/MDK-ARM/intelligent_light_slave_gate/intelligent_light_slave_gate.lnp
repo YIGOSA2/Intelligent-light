@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"intelligent_light_slave_gate\startup_stm32f103xb.o"
+"intelligent_light_slave_gate\main.o"
+"intelligent_light_slave_gate\gpio.o"
+"intelligent_light_slave_gate\usart.o"
+"intelligent_light_slave_gate\stm32f1xx_it.o"
+"intelligent_light_slave_gate\stm32f1xx_hal_msp.o"
+"intelligent_light_slave_gate\stm32f1xx_hal_gpio_ex.o"
+"intelligent_light_slave_gate\stm32f1xx_hal_uart.o"
+"intelligent_light_slave_gate\stm32f1xx_hal.o"
+"intelligent_light_slave_gate\stm32f1xx_hal_rcc.o"
+"intelligent_light_slave_gate\stm32f1xx_hal_rcc_ex.o"
+"intelligent_light_slave_gate\stm32f1xx_hal_gpio.o"
+"intelligent_light_slave_gate\stm32f1xx_hal_dma.o"
+"intelligent_light_slave_gate\stm32f1xx_hal_cortex.o"
+"intelligent_light_slave_gate\stm32f1xx_hal_pwr.o"
+"intelligent_light_slave_gate\stm32f1xx_hal_flash.o"
+"intelligent_light_slave_gate\stm32f1xx_hal_flash_ex.o"
+"intelligent_light_slave_gate\stm32f1xx_hal_exti.o"
+"intelligent_light_slave_gate\system_stm32f1xx.o"
+"intelligent_light_slave_gate\output.o"
+"intelligent_light_slave_gate\rs485.o"
+--strict --scatter "intelligent_light_slave_gate\intelligent_light_slave_gate.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "intelligent_light_slave_gate.map" -o intelligent_light_slave_gate\intelligent_light_slave_gate.axf

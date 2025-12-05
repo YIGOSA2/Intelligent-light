@@ -1,0 +1,1 @@
+intelligent_light_slave_gate\startup_stm32f103xb.o: startup_stm32f103xb.s
