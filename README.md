@@ -126,7 +126,7 @@ keilproject_arm/
 │       │   └── Src/   (main.c / gpio.c / usart.c / it.c / msp.c)
 │       ├── Drivers/                          # HAL 库(CubeMX 生成)
 │       ├── HARDWARE/
-│       │   └── RS485/  rs485.c / rs485.h     # ★ 通信核心
+│       │   └── RS485/  rs485.c / rs485.h     # 通信核心
 │       ├── MDK-ARM/                          # Keil 工程目录
 │       └── intelligent light control.ioc     # CubeMX 配置文件
 │
@@ -136,8 +136,8 @@ keilproject_arm/
         ├── Core/  (+ tim.h / tim.c)
         ├── Drivers/
         ├── HARDWARE/
-        │   ├── RS485/   rs485.c / rs485.h    # ★ 通信核心
-        │   └── OUTPUT/  output.c / output.h  # ★ 灯具/开关/定时
+        │   ├── RS485/   rs485.c / rs485.h    # 通信核心
+        │   └── OUTPUT/  output.c / output.h  # 灯具/开关/定时
         ├── MDK-ARM/
         └── Test.ioc
 ```
