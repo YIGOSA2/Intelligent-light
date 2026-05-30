@@ -65,10 +65,10 @@
 
 > 注:开关从机的"10 路传感器"是 OR 逻辑——只要任意一路触发(低电平),`FUNC_GET_PARAM` 上报数据全为 0。<br>
 
-**主机如下图：**
-![主机如图所示](MASTER.jpg)
-**从机如下图：**
-![从机](SLAVE.jpg)
+**主机如下图：**<br>
+<img src="./MASTER.jpg" width="60%" alt="master"><br>
+**从机如下图：**<br>
+<img src="./SLAVE.jpg" width="60%" alt="slave"><br>
 ---
 
 ## 三、通信协议(自定义)
